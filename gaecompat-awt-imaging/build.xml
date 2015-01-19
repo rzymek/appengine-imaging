@@ -1,0 +1,9 @@
+<project name="geaimg" default="build">
+	<property file="build.user.properties" />
+
+	<target name="build">
+		<jar destfile="gaeimg.jar" basedir="war/WEB-INF/classes">
+		</jar>
+	</target>
+
+</project>
